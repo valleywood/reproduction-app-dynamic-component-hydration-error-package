@@ -1,6 +1,6 @@
 {
   "name": "@valleywood/reproduction-app-dynamic-component-hydration-error-package",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "Dynamic loading imports",
   "main": "index.js",
   "repository": {
