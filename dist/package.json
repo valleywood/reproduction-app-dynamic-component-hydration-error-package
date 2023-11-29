@@ -1,7 +1,6 @@
 {
   "name": "reproduction-app-dynamic-component-hydration-error-package",
-  "version": "1.0.19",
-  "type": "module",
+  "version": "1.0.23",
   "description": "Hydration error for dynamic loading imports",
   "main": "index.js",
   "repository": {
@@ -15,7 +14,7 @@
     "clean": "rimraf dist",
     "copy:package": "ncp package.json dist/package.json",
     "build:package": "run-s clean build copy:package",
-    "publish:package": "cd dist && npm publish"
+    "publish:package": "cd dist && npm publish --access public"
   },
   "keywords": [
     "Next.js hydration error"

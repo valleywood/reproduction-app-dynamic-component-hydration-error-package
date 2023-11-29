@@ -1,14 +1,14 @@
 import React from 'react';
 
 const Component = () => {
-  const [num, setNum] = React.useState(0);
+  /*const [num, setNum] = React.useState(0);
   React.useEffect(() => {
     setTimeout(() => {
       setNum(num + 1);
     }, 3000);
-  }, [num]);
+  }, [num]);*/
   return (<div>
-    Test Inner {num}
+    {/* Test Inner {num} */}
     ddjfhkjh kfjhdf kjhsdgf kjhsdgf kjshdgf kjdhfg kjdhfgb ksjdhfg kjsdhfb kjddhbfk jshdbf ksjhdbf kjshdbf ksjhdbf kjsdhfb kjsdhbf kjsdhfb ksjdhfb kjsdhfb ksjdhfb kjsdhfb ksjdhfb kjsdhfb ksjdhfb skjdhfb ksjdhfb ksjdhfb skjdhfb ksjdhfb skjdhfb kjsdhfb skjdhfb kjsdhfb skjdhfb ksjdhfb ksjdhfb skjdhfb skjdhb kjsdhbksjdhks
     ddjfhkjh kfjhdf kjhsdgf kjhsdgf kjshdgf kjdhfg kjdhfgb ksjdhfg kjsdhfb kjddhbfk jshdbf ksjhdbf kjshdbf ksjhdbf kjsdhfb kjsdhbf kjsdhfb ksjdhfb kjsdhfb ksjdhfb kjsdhfb ksjdhfb kjsdhfb ksjdhfb skjdhfb ksjdhfb ksjdhfb skjdhfb ksjdhfb skjdhfb kjsdhfb skjdhfb kjsdhfb skjdhfb ksjdhfb ksjdhfb skjdhfb skjdhb kjsdhbksjdhks
     ddjfhkjh kfjhdf kjhsdgf kjhsdgf kjshdgf kjdhfg kjdhfgb ksjdhfg kjsdhfb kjddhbfk jshdbf ksjhdbf kjshdbf ksjhdbf kjsdhfb kjsdhbf kjsdhfb ksjdhfb kjsdhfb ksjdhfb kjsdhfb ksjdhfb kjsdhfb ksjdhfb skjdhfb ksjdhfb ksjdhfb skjdhfb ksjdhfb skjdhfb kjsdhfb skjdhfb kjsdhfb skjdhfb ksjdhfb ksjdhfb skjdhfb skjdhb kjsdhbksjdhks
