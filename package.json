@@ -15,7 +15,7 @@
     "clean": "rimraf dist",
     "copy:package": "ncp package.json dist/package.json",
     "build:package": "run-s clean build copy:package",
-    "publish:package": "cd dist && npm publish"
+    "publish:package": "cd dist && npm publish --access public"
   },
   "keywords": [
     "Next.js hydration error"
