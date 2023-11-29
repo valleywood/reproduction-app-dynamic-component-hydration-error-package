@@ -1,15 +1,13 @@
 {
-  "name": "@valleywood/reproduction-app-dynamic-component-hydration-error-package",
-  "version": "1.0.0",
-  "description": "Dynamic loading imports",
+  "name": "reproduction-app-dynamic-component-hydration-error-package",
+  "version": "1.0.19",
+  "type": "module",
+  "description": "Hydration error for dynamic loading imports",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/valleywood/reproduction-app-dynamic-component-hydration-error-package.git",
     "directory": "@valleywood/reproduction-app-dynamic-component-hydration-error-package"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/valleywood"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,13 +18,14 @@
     "publish:package": "cd dist && npm publish"
   },
   "keywords": [
-    "Next.js"
+    "Next.js hydration error"
   ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^13.5.1",
-    "react": "^18.2.0"
+    "next": "canary",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.22",

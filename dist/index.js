@@ -29,7 +29,9 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.Page = void 0;
 const jsx_runtime_1 = require("react/jsx-runtime");
 const dynamic_1 = __importDefault(require("next/dynamic"));
-const Component = (0, dynamic_1.default)(() => Promise.resolve().then(() => __importStar(require('./Component'))), { ssr: true, suspense: true });
+const Component = (0, dynamic_1.default)(() => Promise.resolve().then(() => __importStar(require('./Component'))));
+// Switching from dynamic to this makes the hydration error go away
+//import Component from './Component';
 const Page = () => {
     return ((0, jsx_runtime_1.jsxs)("div", { children: ["Test", (0, jsx_runtime_1.jsx)(Component, {})] }));
 };
